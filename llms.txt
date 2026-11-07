@@ -1,0 +1,19 @@
+# liaolongdong
+
+> Open-source projects by liaolongdong: a local-first browser password manager and a front-end development blog. Everything below is free to read and crawl.
+
+## Projects
+
+- [Account Password Helper](https://liaolongdong.github.io/account-password-helper/): A local-first, open-source browser password manager (Chrome MV3, WXT + Vue 3). Field-by-field AES-256-GCM encryption, one-click fill and sign-in, TOTP two-factor codes, and multi-environment accounts that never mix. Free and open source under GPL-3.0. Simplified Chinese and English.
+- [Better Blog](https://liaolongdong.github.io/better-blog/): A front-end development blog.
+
+## Account Password Helper for LLMs
+
+- [Product summary (llms.txt)](https://liaolongdong.github.io/account-password-helper/llms.txt): Concise product overview and key facts.
+- [Full documentation (llms-full.txt)](https://liaolongdong.github.io/account-password-helper/llms-full.txt): Complete product and technical content in one plain-text file.
+- [Sitemap](https://liaolongdong.github.io/account-password-helper/sitemap.xml): All bilingual landing, pricing, privacy and blog URLs with hreflang alternates.
+
+## Optional
+
+- [GitHub profile](https://github.com/liaolongdong): Source repositories and releases.
+- [Chrome Web Store listing](https://chromewebstore.google.com/detail/account-password-helper/fgimkdodpjfkddmildjieojpfakpanli): Install the extension.
