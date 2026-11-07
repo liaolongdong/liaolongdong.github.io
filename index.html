@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>liaolongdong · 开源项目 / Open-source projects</title>
+    <meta
+      name="description"
+      content="liaolongdong 的开源项目：本地优先的浏览器密码管理器「账号密码管理助手」与前端开发博客。Open-source projects by liaolongdong: a local-first browser password manager and a front-end blog."
+    />
+    <link rel="canonical" href="https://liaolongdong.github.io/" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7f8fa;
+        --card: #ffffff;
+        --fg: #1a1d24;
+        --muted: #5b6472;
+        --line: #e4e7ec;
+        --accent: #2f6feb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0f1115;
+          --card: #181b21;
+          --fg: #e8eaed;
+          --muted: #a3acba;
+          --line: #2a2f38;
+          --accent: #6ea0ff;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', Roboto, Helvetica,
+          Arial, sans-serif;
+        line-height: 1.6;
+      }
+      main {
+        width: 100%;
+        max-width: 640px;
+      }
+      header {
+        margin-bottom: 28px;
+      }
+      h1 {
+        margin: 0 0 6px;
+        font-size: 1.6rem;
+        letter-spacing: 0.01em;
+      }
+      .sub {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+      .card {
+        display: block;
+        margin-bottom: 14px;
+        padding: 18px 20px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        text-decoration: none;
+        color: inherit;
+        transition: border-color 0.15s ease;
+      }
+      .card:hover,
+      .card:focus-visible {
+        border-color: var(--accent);
+        outline: none;
+      }
+      .card h2 {
+        margin: 0 0 4px;
+        font-size: 1.1rem;
+      }
+      .card h2 .en {
+        color: var(--muted);
+        font-weight: 400;
+        font-size: 0.9rem;
+      }
+      .card p {
+        margin: 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      footer {
+        margin-top: 22px;
+        font-size: 0.9rem;
+      }
+      footer a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>liaolongdong</h1>
+        <p class="sub">开源项目 · Open-source projects</p>
+      </header>
+
+      <a class="card" href="https://liaolongdong.github.io/account-password-helper/">
+        <h2>账号密码管理助手 <span class="en">Account Password Helper</span></h2>
+        <p>
+          本地优先的浏览器密码管理器：逐字段加密、一键填充并登录、TOTP 两步验证、多环境账号互不串味。开源免费（GPL-3.0）。
+          A local-first browser password manager — field-by-field encryption, one-click fill &amp; sign-in, TOTP, free and
+          open source.
+        </p>
+      </a>
+
+      <a class="card" href="https://liaolongdong.github.io/better-blog/">
+        <h2>Better Blog <span class="en">前端开发博客</span></h2>
+        <p>前端开发笔记与文章。Notes and articles on front-end development.</p>
+      </a>
+
+      <footer>
+        <a href="https://github.com/liaolongdong">GitHub</a>
+        ·
+        <a href="https://liaolongdong.github.io/account-password-helper/llms.txt">llms.txt</a>
+      </footer>
+    </main>
+  </body>
+</html>
